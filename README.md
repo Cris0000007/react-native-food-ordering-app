@@ -20,7 +20,7 @@ The projects focus on learning React Native fundamentals, screen layout, navigat
 ## Project Structure
 
 ```text
-react-native-food-ordering-app/
+react-native-mobile-development-projects/
 ├── react-native-food-ordering-app/
 │   ├── 1/
 │   ├── 2/
@@ -87,7 +87,6 @@ react-native-food-ordering-app/
 ```
 
 4. Open the selected project folder in your development environment.
-
 5. Install the required dependencies if needed:
 
 ```bash
