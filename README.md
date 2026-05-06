@@ -1,12 +1,12 @@
-# React Native Food Ordering App
+# React Native Mobile Development Projects
 
-A React Native food ordering app prototype built with Expo and React Navigation. This project demonstrates restaurant listing, menu navigation, image-based menu display, and basic user interaction.
+A collection of React Native mobile development projects built with Expo. This repository includes multiple mobile app practice projects covering UI design, navigation, component-based development, image handling, and user interaction.
 
 ## Project Overview
 
-This project is a mobile food ordering application prototype developed using React Native. The app allows users to browse restaurant options, view restaurant details, navigate to menu sections, and select menu items.
+This repository contains several React Native projects developed as part of my mobile development practice. Each folder represents a separate project or exercise, allowing different mobile development concepts to be explored step by step.
 
-The project focuses on mobile interface design, screen navigation, component-based development, image handling, and interactive user experience.
+The projects focus on learning React Native fundamentals, screen layout, navigation, reusable components, styling, local assets, and basic interactive features.
 
 ## Tech Stack
 
@@ -15,114 +15,117 @@ The project focuses on mobile interface design, screen navigation, component-bas
 - JavaScript
 - React Navigation
 - React Native TableView Simple
-
-## Key Features
-
-- Restaurant listing screen
-- Restaurant image display
-- Estimated delivery time display
-- Menu category sections
-- Food item images and ratings
-- Navigation between restaurant and menu screens
-- Alert message when a menu item is selected
-- Mobile-friendly interface design
+- Mobile UI Development
 
 ## Project Structure
 
 ```text
 react-native-food-ordering-app/
-├── App.js
-├── assets/
-│   ├── CrisCafe.jpg
-│   ├── Crisdiner.jpg
-│   ├── tiramisu.jpg
-│   ├── special.jpg
-│   ├── vanilla.jpg
-│   ├── chocolate.jpg
-│   ├── espresso.jpg
-│   ├── latte.jpg
-│   ├── margherita.jpg
-│   ├── pepperoni.jpg
-│   ├── beefburger.jpg
-│   ├── chickenburger.jpg
-│   ├── carbonara.jpg
-│   └── aglioolio.jpg
+├── react-native-food-ordering-app/
+│   ├── 1/
+│   ├── 2/
+│   ├── 3/
+│   ├── 4/
+│   └── 5/
 └── README.md
 ```
 
-## Main Screens
+## Folder Description
 
-- `Restaurants Screen`  
-  Displays restaurant cards with restaurant images, tagline, and estimated delivery time.
+- `1/`  
+  Contains an early React Native practice project focusing on basic app structure and component usage.
 
-- `Menu Screen`  
-  Shows menu categories, food items, ratings, and item images.
+- `2/`  
+  Contains a practice project exploring layout, styling, and simple mobile interface design.
 
-## Main Components and Logic
+- `3/`  
+  Contains a mobile development exercise involving screen structure and user interface improvement.
 
-- `Restaurants`  
-  Handles the restaurant listing and navigation to the menu screen.
+- `4/`  
+  Contains a React Native practice project that builds on previous app development concepts.
 
-- `Menu`  
-  Receives selected restaurant menu data and displays food items by category.
+- `5/`  
+  Contains the most complete food ordering app prototype, including restaurant listing, menu navigation, food images, ratings, and user interaction.
 
-- `React Navigation Stack`  
-  Controls navigation between the restaurant list and menu pages.
+## Main Project Highlight
 
-- `Alert Interaction`  
-  Displays a simple confirmation message when a menu item is selected.
+The main portfolio project in this repository is located in:
+
+```text
+react-native-food-ordering-app/5/
+```
+
+This project is a food ordering app prototype that allows users to browse restaurants, view menu categories, and interact with food item selections.
+
+## Key Features
+
+- Multiple React Native practice projects
+- Mobile app layout and styling
+- Component-based development
+- Restaurant listing interface
+- Menu category display
+- Image-based food item presentation
+- Navigation between screens
+- Basic user interaction using alert messages
+- Expo-based mobile app testing
 
 ## How to Run
 
-This project requires Node.js, Expo, and a React Native development environment.
+This repository contains multiple React Native projects. To run a project:
 
-1. Create or open an Expo React Native project.
+1. Download or clone this repository.
+2. Open the main project folder:
 
-2. Install the required dependencies:
-
-```bash
-npm install @react-navigation/native @react-navigation/native-stack react-native-tableview-simple
+```text
+react-native-food-ordering-app/
 ```
 
-3. Install Expo navigation dependencies if required:
+3. Choose one project folder, for example:
 
-```bash
-npx expo install react-native-screens react-native-safe-area-context
+```text
+5/
 ```
 
-4. Place `App.js` and the `assets/` folder into the Expo project.
+4. Open the selected project folder in your development environment.
 
-5. Start the project:
+5. Install the required dependencies if needed:
+
+```bash
+npm install
+```
+
+6. Start the Expo project:
 
 ```bash
 npx expo start
 ```
 
-6. Run the app using Expo Go or an emulator.
+7. Run the app using Expo Go or an emulator.
 
 ## What I Learned
 
-Through this project, I practised:
+Through these projects, I practised:
 
-- Building mobile apps using React Native
-- Creating reusable UI components
-- Using React Navigation for screen transitions
-- Passing data between screens
-- Displaying local image assets
-- Handling user interaction with alerts
-- Designing mobile-friendly restaurant and menu screens
-- Testing the app in an Expo environment
+- Building mobile applications using React Native
+- Creating reusable components
+- Styling mobile app interfaces
+- Managing local image assets
+- Using navigation between screens
+- Passing data between components and screens
+- Handling user interaction
+- Testing mobile apps using Expo
+- Organising multiple project exercises in a structured way
 
 ## Possible Improvements
 
-- Add cart functionality
-- Add item quantity selection
-- Add checkout screen
-- Add search and filter features
-- Store menu data in a separate file
-- Improve styling and responsive layout
-- Add user login and order history
+- Rename folders with more descriptive project names
+- Add screenshots for each project
+- Add separate README files inside each project folder
+- Improve UI consistency across projects
+- Add cart and checkout functionality to the food ordering app
+- Store menu data in separate files
+- Improve responsive layout for different screen sizes
 
 ## Note
 
-This project was developed as part of my academic mobile development practice and portfolio.
+This repository was developed as part of my academic mobile development practice and portfolio. The `5/` folder contains the most complete project and is the main app recommended for review.
